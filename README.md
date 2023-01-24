@@ -4,7 +4,7 @@
 - When you get to "tasksel", disable desktop and gnome, enable ssh and system only.
 - Reboot and begin next steps
 
-- apt-get install xfce4 xfce4-power-manager tmux firefox-esr vlc git kpcli tree htop ncdu
+- apt-get install xfce4 xfce4-power-manager tmux firefox-esr vlc git kpcli tree htop ncdu bc gnome-themes-extra-data nm-tray
 
 - edit /etc/default/grub, uncomment console option (disable splash)
 - update-grub
