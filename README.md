@@ -4,7 +4,9 @@
 - When you get to "tasksel", disable desktop and gnome, enable ssh and system only.
 - Reboot and begin next steps
 
-- apt-get install xfce4 xfce4-power-manager tmux firefox-esr vlc git kpcli tree htop ncdu bc gnome-themes-extra-data nm-tray
+## Firmware 
+
+By default my Intel chipset was not recognized. I get around this by disabling splash, adding non-free, and installing the firmware that Debian recommends.
 
 - edit /etc/default/grub, uncomment console option (disable splash)
 - update-grub
@@ -15,20 +17,32 @@
 
 - apt-get remove lightdm
 
-- now login as user and `startx`!
+## Minimal X environment and console tools
+
+- apt-get install i3 xfce4 xfce4-power-manager tmux firefox-esr vlc git kpcli tree htop ncdu bc gnome-themes-extra-data nm-tray gawk cal xinput
 
 - edit `/etc/default/keyboard`
 - set XKBOPTIONS="ctrl:nocaps"
 - takes effect after reboot or /usr/sbin/setxkbmap -option "ctrl:nocaps"
 
+- now login as user and `startx`!
+
 # Install Essential Tools
+
+## Browser Config
 
 - open firefox, extensions, add: ublock, noscript, multi-account containers
 - configure security settings for firefox
 
+- firefox edit toolbar: remove pocket, add bookmarks button, disable title bar
+
+## Dev Tools
+
 - vscodium.com
 - add apt repos
 - install codium
+- vim plugin
+- beautify plugin
 
 - install Docker from website - server edition
 - follow post-install steps to add user to docker group, then reboot
