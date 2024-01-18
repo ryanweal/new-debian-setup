@@ -36,7 +36,12 @@ By default my Intel chipset was not recognized. I get around this by disabling s
 
 - firefox edit toolbar: remove pocket, add bookmarks button, disable title bar
 
+- firefox: disable blacklist sending queries to google
+- firefox:  disable dns-over-https - often causes errors on first hit of non-democrat sites via Starlink
+
 ## Dev Tools
+
+Codium (VS code clone)
 
 - vscodium.com
 - add apt repos
@@ -44,14 +49,16 @@ By default my Intel chipset was not recognized. I get around this by disabling s
 - vim plugin
 - beautify plugin
 
+Node.js
+
+- visit http://nvm.sh
+- run `nvm install --lts` as logged in (non-root) user
+
+Docker
+
 - install Docker from website - server edition
 - follow post-install steps to add user to docker group, then reboot
 - make a script in /usr/local/bin for docker-compose to run "docker compose $@"
-
-- firefox edit toolbar: remove pocket, add bookmarks button, disable title bar
-
-- firefox: disable blacklist sending queries to google
-- firefox:  disable dns-over-https - often causes errors on first hit of non-democrat sites via Starlink
 
 # Mouse overrides: set speed of trackpoint on Lenovo USB Keyboard
 
