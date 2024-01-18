@@ -1,0 +1,56 @@
+xterm*selectToClipboard: true
+
+!fonts&stuff
+!xterm*faceSize: 7
+xterm*eightBitInput: false
+!xterm*faceName: fixed:size=8:antialias=false
+!xterm*faceName: -misc-fixed-medium-r-semicondensed--13-120-75-75-c-60-iso10646-1:size=8:antialias=false
+!xterm*font: 7x13
+!Background & foreground
+!xterm*background: #002B36
+xterm*background: #000000
+xterm*foreground: #FFFFFF
+xterm*borderColor: #343434
+
+!Turning off scrollbar
+xterm*scrollBar:  off
+
+!Starting up with a geometry
+xterm*vt100*geometry:   88x24
+
+!Colors
+!-------------------------
+!black
+!xterm*color0: #222222
+xterm*color0: #000000
+xterm*color8: #454545
+
+!red
+xterm*color1: #9E5641
+xterm*color9: #CC896D
+
+!green
+xterm*color2: #6C7E55
+xterm*color10: #C4DF90
+
+!yellow
+xterm*color3: #CAAF2B
+xterm*color11: #FFE080
+
+!blue
+xterm*color4: #7FB8D8
+xterm*color12: #B8DDEA
+
+!magenta
+xterm*color5: #956D9D
+xterm*color13: #C18FCB
+
+!cyan
+xterm*color6: #4c8ea1
+xterm*color14: #6bc1d0
+
+!white
+!xterm*color7: #808080
+xterm*color7: #D2D2D2
+!xterm*color15: #cdcdcd
+xterm*color15: #FAFAFA
