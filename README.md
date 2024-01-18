@@ -143,3 +143,10 @@ XDG_MUSIC_DIR="$HOME/media/music"
 XDG_PICTURES_DIR="$HOME/media/photos"
 XDG_VIDEOS_DIR="$HOME/media/videos"
 
+# Microcode Updates - Intel
+
+- Edit `/etc/apt/sources.list`
+- Ensure each has both `non-free` and also `contrib` (contrib may be missing and needed for iucode-tool)
+
+- apt-get install iucode-tool intel-microcode
+
