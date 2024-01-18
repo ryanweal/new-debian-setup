@@ -19,7 +19,7 @@ By default my Intel chipset was not recognized. I get around this by disabling s
 
 ## Minimal X environment and console tools
 
-- apt-get install i3 xfce4 xfce4-power-manager tmux firefox-esr vlc git kpcli tree htop ncdu bc gnome-themes-extra-data nm-tray gawk cal xinput
+- apt-get install i3 xfce4 xfce4-power-manager tmux firefox-esr vlc git kpcli tree htop ncdu bc gnome-themes-extra-data nm-tray gawk cal xinput fossil
 
 - edit `/etc/default/keyboard`
 - set XKBOPTIONS="ctrl:nocaps"
